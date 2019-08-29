@@ -9,17 +9,16 @@ import org.springframework.stereotype.Service;
 @Service
 public class ConsumerServiceImpl implements ConsumerService {
 
-    private static final String EXCHANGE_NAME = "jsa.direct";
+    private static final String EXCHANGE_NAME = "customer.direct";
 
     @Override
     @RabbitListener(
             bindings = @QueueBinding(
-                    value = @Queue(value = "jsa.queue",durable = "true"),
+                    value = @Queue(value = "customer.queue",durable = "true"),
                     exchange = @Exchange(value = EXCHANGE_NAME),
-                    key = "jsa.routingkey")
+                    key = "customer.routingkey")
     )
-    public void consumerMessage(byte[] data) {
-        String consumedMessage = new String(data);
-        System.out.println(" [x] Consumed  '" + consumedMessage + "'");
+    public void consumerMessage(Object data) {
+        System.out.println(" [x] Consumed  '" + data + "'");
     }
 }
