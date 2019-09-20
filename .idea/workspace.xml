@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2cc3870-9278-403a-81b2-9b33fe843068" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/consumer/spring/service/ConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/consumer/spring/service/ConsumerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/consumer/spring/service/ConsumerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/consumer/spring/service/ConsumerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CustomerProductConsumer/WEB-INF/classes/com/consumer/spring/service/ConsumerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CustomerProductConsumer/WEB-INF/classes/com/consumer/spring/service/ConsumerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CustomerProductConsumer/WEB-INF/classes/com/consumer/spring/service/ConsumerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CustomerProductConsumer/WEB-INF/classes/com/consumer/spring/service/ConsumerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/consumer/spring/service/ConsumerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/consumer/spring/service/ConsumerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/consumer/spring/service/ConsumerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/consumer/spring/service/ConsumerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    <list default="true" id="8e002bf3-7292-44b3-a01a-887e3a226410" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customerApp/src/main/proto/customer.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerApp/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customerApp/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerApp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/customerApp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customerApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerApp/src/main/java/com/customer/spring/config/MqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/customerApp/src/main/java/com/customer/spring/config/MqConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerApp/src/main/java/com/customer/spring/service/ConsumerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerApp/src/main/java/com/customer/spring/service/ConsumerServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerApp/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customerApp/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productApp/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/productApp/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/productApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productApp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/productApp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productApp/src/main/java/com/product/spring/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/productApp/src/main/java/com/product/spring/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productApp/src/main/java/com/product/spring/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/productApp/src/main/java/com/product/spring/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productApp/src/main/java/com/product/spring/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/productApp/src/main/java/com/product/spring/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productApp/src/main/java/com/product/spring/service/ConsumerServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/productApp/src/main/java/com/product/spring/service/ConsumerServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productApp/src/main/java/com/product/spring/service/ProducerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productApp/src/main/java/com/product/spring/service/ProducerServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productApp/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/productApp/src/main/resources/db.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,19 +29,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/productApp" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="ProjectId" id="1R0SYL0UYW5ZJa1ndEJYQUJP8AP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectId" id="1Q2aiVzisiKIWURSdgN81nvi8XS" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/customerApp" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Rabbit\rabbitmq-tutorials\spring-mvc-amqp" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -49,11 +60,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f2cc3870-9278-403a-81b2-9b33fe843068" name="Default Changelist" comment="" />
-      <created>1566971271652</created>
+      <changelist id="8e002bf3-7292-44b3-a01a-887e3a226410" name="Default Changelist" comment="" />
+      <created>1568802566049</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566971271652</updated>
+      <updated>1568802566049</updated>
     </task>
     <servers />
   </component>
